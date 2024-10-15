@@ -68,8 +68,11 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     val retrofitVersion = "2.11.0"
+    val liveDataVersion = "1.7.3"
     implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
     implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion")
+    implementation("androidx.compose.runtime:runtime-livedata:$liveDataVersion")
+
 
 
 }
