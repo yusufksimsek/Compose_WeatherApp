@@ -2,7 +2,7 @@ package com.example.compose_weatherapp.api
 
 data class Current(
     val cloud: String,
-    val condition: String,
+    val condition: Condition,
     val dewpoint_c: String,
     val dewpoint_f: String,
     val feelslike_c: String,
